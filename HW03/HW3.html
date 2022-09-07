@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEOG370 HW3: Valen Zhang</title>
+</head>
+
+<body>
+
+    <h1>In this project I learned how to display images in different projections</h1>
+    <body>After loading in the Natural Earth shapefile, I modified the ESRI setting on the bottom right.
+        The shape of the map would change according to different ESRI changes. After sucessfully changing
+        the shapefile to the desired ESRI format, the indicatrix tool will then be utilized to graph out 
+        Tissot’s indicatrix.
+    </body>
+    <br>
+
+    <h2>WGS84 Projection (EPSG4326)</h2>
+    <body>The WGS84 Projection focuses on the equator, where there are nearly no distortion at all. With
+        increase in latitude, as shown in Tissot's indecatrix, the distortion also increases. Distortion
+        is at it's maximum at the North Pole and South Pole. Distortion is the same across all locations
+        sharing the same latitude.
+    </body>
+    <img src="./Images/WGS84.png" alt="WGS84" width="800">  <!-- Cannot give local address! Need to include "./" -->
+    <br>
+
+    <h2>Aitoff Projection (EPSG54043)</h2>
+    <body>The Aitoff Projection focuses on the Prime Meridian, where the Longitude is 0. Locations on 
+        the Prime Meridian experiences little to no distortion, as the Tissot's Indecatrix shows. The 
+        further away from the Prime Meridian, the more distortion there is, and distortion also increased
+        with increase in latitude. In general, locations along the Prime Meridian is free from distortion,
+        and locations along the Equator experiences less distortion compares to North and South Pole.
+    </body>
+    <img src="./Images/Aittoff.png" alt="54043" width="800">
+    <br>
+
+    <h2>Pseudo-Mercator Projection (EPSG3857)</h2>
+    <body>Descriptions here</body>
+    <img src="./Images/EPSG3857.png" alt="3857" width="800">
+    <br>
+
+    <h2>Sphere Winkel Projection (EPSG53018)</h2>
+    <body>Descriptions here</body>
+    <img src="./Images/Sphere Winkle 53018.png" alt="53018" width="800">
+    <br>
+
+    <h2>World Cylindrical Equal Area Projection (EPSG54034)</h2>
+    <body>Descriptions here</body>
+    <img src="./Images/World Cylindrical Equal Area 54034.png" alt="54034" width="800">
+    <br>
+
+    <h2>World Equidistant Conic Projection (EPSG54027)</h2>
+    <body>Descriptions here</body>
+    <img src="./Images/World Equidistant Conic 54027.png" alt="54027" width="800">
+    <br>
+
+    <h2>North Pole Azimuthal Equidistant Projection (EPSG102016)</h2>
+    <body>Descriptions here</body>
+    <img src="./Images/North Pole Zimuthal Equidistant 102016.png" alt="102016" width="800">
+    <br>
+
+    <h2>Peirce Quincuncial Projection (EPSG54090)</h2>
+    <img src="./Images/Peirce Quincuncial 54090.png" alt="54090" width="800">
+    <br>
+    <body>Normal Map View</body>
+    <br>
+    <img src="./Images/Peirce quincuncial.jfif" alt="jfif" width="800">
+    <br>
+
+    <h2>Goode's Homolosine Projection (EPSG54052)</h2>
+    <img src="./Images/Goode’s Homolosine 54052.png" alt="54052" width="800">
+    <br>
+    <body>Normal Map View</body>
+    <br>
+    <img src="./Images/Goode’s Homolosine Projection.jpg" alt="jpg" width="800">
+    <br>
+
+</body>
+</html>
