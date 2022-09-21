@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Route to Times Square",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -73.981878474135186, 40.768040563795488 ], [ -73.987366614553736, 40.760444265663359 ], [ -73.981686320711333, 40.758001698432473 ] ] ] } }
+]
+}
