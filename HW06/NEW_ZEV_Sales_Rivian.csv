@@ -1,0 +1,45 @@
+Data Year,County,FUEL_TYPE,MAKE,MODEL,Number of Vehicles
+2022,Alameda,Electric,Rivian,R1T,78
+2022,Butte,Electric,Rivian,R1T,6
+2022,Contra Costa,Electric,Rivian,R1T,49
+2022,Del Norte,Electric,Rivian,R1T,1
+2022,El Dorado,Electric,Rivian,R1T,10
+2022,Fresno,Electric,Rivian,R1T,13
+2022,Glenn,Electric,Rivian,R1T,1
+2022,Humboldt,Electric,Rivian,R1T,1
+2022,Kern,Electric,Rivian,R1T,5
+2022,Kings,Electric,Rivian,R1T,1
+2022,Los Angeles,Electric,Rivian,R1T,261
+2022,Madera,Electric,Rivian,R1T,1
+2022,Marin,Electric,Rivian,R1T,38
+2022,Mendocino,Electric,Rivian,R1T,1
+2022,Merced,Electric,Rivian,R1T,2
+2022,Mono,Electric,Rivian,R1T,1
+2022,Monterey,Electric,Rivian,R1T,4
+2022,Napa,Electric,Rivian,R1T,5
+2022,Nevada,Electric,Rivian,R1T,7
+2022,Orange,Electric,Rivian,R1T,293
+2022,Out Of State,Electric,Rivian,R1T,1
+2022,Placer,Electric,Rivian,R1T,25
+2022,Plumas,Electric,Rivian,R1T,1
+2022,Riverside,Electric,Rivian,R1T,39
+2022,Sacramento,Electric,Rivian,R1T,43
+2022,San Benito,Electric,Rivian,R1T,1
+2022,San Bernardino,Electric,Rivian,R1T,29
+2022,San Diego,Electric,Rivian,R1T,133
+2022,San Francisco,Electric,Rivian,R1T,28
+2022,San Joaquin,Electric,Rivian,R1T,10
+2022,San Luis Obispo,Electric,Rivian,R1T,17
+2022,San Mateo,Electric,Rivian,R1T,65
+2022,Santa Barbara,Electric,Rivian,R1T,20
+2022,Santa Clara,Electric,Rivian,R1T,119
+2022,Santa Cruz,Electric,Rivian,R1T,16
+2022,Shasta,Electric,Rivian,R1T,2
+2022,Siskiyou,Electric,Rivian,R1T,1
+2022,Solano,Electric,Rivian,R1T,5
+2022,Sonoma,Electric,Rivian,R1T,25
+2022,Stanislaus,Electric,Rivian,R1T,6
+2022,Tulare,Electric,Rivian,R1T,2
+2022,Tuolumne,Electric,Rivian,R1T,1
+2022,Ventura,Electric,Rivian,R1T,32
+2022,Yolo,Electric,Rivian,R1T,9
