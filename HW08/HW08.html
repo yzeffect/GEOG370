@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+</head>
+<body>
+<h1>Homework 8: Road Kills in California </h1>
+<h2>Valen Zhang</h2>
+<h3>Everytime I drive on i40, I'll see some road kills. That makes me reflect on why there are more road 
+    kills at some locations than the other? This is why I decided to do explore road kills in California. 
+    California has many National Parks and State Parks. In this homeowkr, I decided to study the 
+    relationship between road kills and State Parks instead of National Parks because around National 
+    Parks, people are generally more prudent when they're driving. On the other hand, State Parks are 
+    everywhere and more spread out than the National Parks. Therefore, I believe that State Parks might 
+    be something interesting to study. 
+
+    I first imported the csv datafile for road kill data from FatalEncounters.org. Then, I imported the 
+    State Park boundaries from California Open Data webpage. In QGIS, I created a 10 mile buffer and a 
+    3 mile buffer from each state park. Then, using the 3 mile and 10 mile buffer, I was able to select 
+    those road kills that are within those range using intersection function in QGIS. Results are shown 
+    below.
+</h3>
+<!-- Your map goes here -->
+<a href="./Map/3 miles.png">
+    <img src="./Map/3 miles.png" alt="3 Mile Map" width='700px'>
+    </a>
+    
+<a href="./Map/10 miles.png">
+    <img src="./Map/10 miles.png" alt="10 Mile Map" width='700px'>
+     </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project</h2>
+    <a href="https://docs.google.com/spreadsheets/d/1dKmaV_JiWcG8XBoRgP8b4e9Eopkpgt7FL7nyspvzAsE/edit#gid=1359780841"> Road Kill dataset </a>
+    <br>
+    <a href="https://www.parks.ca.gov/?page_id=29682"> California State Park dataset </a>
+</body>
+</html>
